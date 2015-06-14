@@ -128,7 +128,7 @@ Colour_convert_item = class
 		action x = conv Image_type.UCS x;
 	}
 
-	UCS_item = class
+	HSV_item = class
 		Menuaction (_ "_HSV") (_ "convert to HSV colourspace") {
 		action x = conv Image_type.HSV x;
 	}
@@ -206,6 +206,11 @@ Colour_tag_item = class
 	UCS_item = class
 		Menuaction (_ "_UCS") (_ "tag as being in UCS colourspace") {
 		action x = tag Image_type.UCS x;
+	}
+
+	HSV_item = class
+		Menuaction (_ "_HSV") (_ "tag as being in HSV colourspace") {
+		action x = tag Image_type.HSV x;
 	}
 }
 
