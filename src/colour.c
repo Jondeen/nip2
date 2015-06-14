@@ -60,7 +60,7 @@ static const int colour_type[] = {
 	IM_TYPE_sRGB,
 	IM_TYPE_RGB16,
 	IM_TYPE_GREY16,
-	IM_TYPE_HSV
+	VIPS_INTERPRETATION_HSV
 };
 
 static ClassmodelClass *parent_class = NULL;
