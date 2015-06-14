@@ -127,6 +127,11 @@ Colour_convert_item = class
 		Menuaction (_ "_UCS") (_ "convert to UCS colourspace") {
 		action x = conv Image_type.UCS x;
 	}
+
+	UCS_item = class
+		Menuaction (_ "_HSV") (_ "convert to HSV colourspace") {
+		action x = conv Image_type.HSV x;
+	}
 }
 
 /* mark objects as being in various colourspaces

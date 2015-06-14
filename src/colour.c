@@ -45,7 +45,7 @@ static const char *colour_colour_space[] = {
 	"srgb",		/* index 6 */
 	"rgb16",	/* index 7 */
 	"grey16"	/* index 8 */
-	"hsv"		/* index 8 */
+	"hsv"		/* index 9 */
 };
 
 /* For each allowed colourspace, the corresponding VIPS Type value.
