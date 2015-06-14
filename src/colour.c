@@ -45,6 +45,7 @@ static const char *colour_colour_space[] = {
 	"srgb",		/* index 6 */
 	"rgb16",	/* index 7 */
 	"grey16"	/* index 8 */
+	"hsv"		/* index 8 */
 };
 
 /* For each allowed colourspace, the corresponding VIPS Type value.
@@ -58,7 +59,8 @@ static const int colour_type[] = {
 	IM_TYPE_RGB,
 	IM_TYPE_sRGB,
 	IM_TYPE_RGB16,
-	IM_TYPE_GREY16
+	IM_TYPE_GREY16,
+	IM_TYPE_HSV
 };
 
 static ClassmodelClass *parent_class = NULL;
