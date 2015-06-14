@@ -473,6 +473,7 @@ _colour_conversion_table = [
 	sRGB = 22;
 	LABQ = 16;
 	LABS = 21;
+	HSV = 29;
 }
 
 /* Transform between two colour spaces.

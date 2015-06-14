@@ -816,6 +816,7 @@ Image_type = class {
 	RGB16 = 25;
 	GREY16 = 26;
 	ARRAY = 27;
+	HSV = 29;
 
 	/* Table to get names <-> numbers.
 	 */
@@ -836,7 +837,8 @@ Image_type = class {
 		$FOURIER => FOURIER,
 		$RGB16 => RGB16,
 		$GREY16 => GREY16,
-		$ARRAY => ARRAY
+		$ARRAY => ARRAY,
+		$HSV => HSV
 	];
 
 	/* Table relating nip's colour space names and VIPS's Type numbers.

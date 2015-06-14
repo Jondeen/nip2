@@ -816,6 +816,7 @@ Image_type = class {
 	RGB16 = 25;
 	GREY16 = 26;
 	ARRAY = 27;
+	HSV = 29;
 
 	/* Table to get names <-> numbers.
 	 */
